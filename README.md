@@ -107,7 +107,6 @@ ExpenseTrackerP/
 - **Frontend**: HTML5, CSS3, JavaScript
 - **UI Framework**: Bootstrap 5
 - **Icons**: Font Awesome 6
-- **Charts**: Chart.js (ready for future enhancements)
 
 ## Database Schema
 
@@ -137,18 +136,6 @@ The main styling is in `templates/base.html`. You can customize:
 - Color scheme (CSS variables in `:root`)
 - Background gradients
 - Card styling and animations
-
-### Database Configuration
-The application uses SQLite by default. To use a different database:
-1. Update `SQLALCHEMY_DATABASE_URI` in `app.py`
-2. Install appropriate database drivers
-
-## Security Considerations
-
-- Passwords are hashed using Werkzeug's security functions
-- Users can only access their own expense data
-- SQL injection protection through SQLAlchemy ORM
-- CSRF protection available through Flask-WTF (can be enabled)
 
 ## Future Enhancements
 
