@@ -86,17 +86,17 @@ http://localhost:5000
 
 ```
 ExpenseTrackerP/
-├── app.py                 # Main Flask application
-├── requirements.txt       # Python dependencies
-├── README.md             # Project documentation
-├── templates/            # HTML templates
-│   ├── base.html         # Base template with styling
-│   ├── login.html        # Login page
-│   ├── register.html     # Registration page
-│   ├── dashboard.html    # Main dashboard
-│   ├── add_expense.html  # Add expense form
-│   └── edit_expense.html # Edit expense form
-└── expenses.db           # SQLite database (created automatically)
+├── app.py                 
+├── requirements.txt       
+├── README.md             
+├── templates/            
+│   ├── base.html         
+│   ├── login.html        
+│   ├── register.html     
+│   ├── dashboard.html    
+│   ├── add_expense.html  
+│   └── edit_expense.html 
+└── expenses.db           
 ```
 
 ## Technology Stack
